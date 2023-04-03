@@ -1,0 +1,36 @@
+body{
+	user-select:none;
+	/* background:url('pngtree-simple-illustration-star-dust-on-space-and-sky-png-image_6544244.png'); */
+}
+
+.container .row{
+	display:flex;
+	gap:20px;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+.container .row .col{
+	box-shadow:0px 4px 15px rgba(0,0,0,0.3);
+	border-top-right-radius:20px;
+	border-top-left-radius:20px;
+}
+.container .row .col .img-box img{
+	width:350px;
+	max-width:350px;
+	border-top-right-radius:20px;
+	border-top-left-radius:20px;
+	
+}
+.container .row .col .content-box{
+	padding:15px 20px;
+}
+.container .row .col .content-box h1{
+	font-size:25px;
+	color:#e91e63;
+}
+.container .row .col .content-box h3{
+	font-size:15px;
+}
+.container .row .col .content-box p .fa{
+	color:orange;
+}
